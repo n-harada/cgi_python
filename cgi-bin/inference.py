@@ -20,6 +20,6 @@ print("<script>document.getElementById('h1').innerHTML='推論中'</script>", fl
 
 
 # cmd = "python3 cgi-bin/sleep.py"
-popen2 = subprocess.Popen(python_code2.split())
-popen2.wait()
+# popen2 = subprocess.Popen(python_code2.split())
+# popen2.wait()
 
