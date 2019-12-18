@@ -3,8 +3,8 @@
 import subprocess
 
 
-python_code1 = '../face_recognition_on_coral/face_recording_with_training'
-python_code2 = '../face_recognition_on_coral/face_detection_recognition_sklearn.py'
+python_code1 = '../demo/face_recognition_on_coral/face_recording_with_training'
+python_code2 = '../demo/face_recognition_on_coral/face_detection_recognition_sklearn.py'
 
 
 print('Content-type: text/html; charset=UTF-8\r\n')
