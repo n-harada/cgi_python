@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 # -*- coding:utf-8 -*-
 import subprocess
+import time
 
 
 python_code1 = 'python3 ../demo/face_recognition_on_coral/face_recording_with_training.py'
@@ -15,6 +16,9 @@ print(
 
 popen1 = subprocess.Popen(python_code1.split())
 popen1.wait()
+time.sleep(10)
+popen1.kill()
+
 # print("<style type='text/css'>.learning,.loader{display:none}</style>", flush=True)
 print("<script>document.getElementById('h1').innerHTML='推論中'</script>", flush=True)
 
