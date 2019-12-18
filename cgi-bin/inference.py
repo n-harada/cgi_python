@@ -15,7 +15,7 @@ print(
 
 
 popen1 = subprocess.Popen(python_code1.split())
-popen1.wait()
+# popen1.wait()
 time.sleep(10)
 popen1.kill()
 
