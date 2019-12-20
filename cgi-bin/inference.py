@@ -17,7 +17,7 @@ popen1 = subprocess.Popen(python_code1.split())
 time.sleep(5)
 print("<h1 id='h1' class='learning'>学習中</h1><div class='loader'></div>", flush=True)
 # popen1.wait()
-time.sleep(25)
+time.sleep(35)
 popen1.kill()
 
 # print("<style type='text/css'>.learning,.loader{display:none}</style>", flush=True)
